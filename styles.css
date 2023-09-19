@@ -7,6 +7,7 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
+    overflow-x: hidden;
 }
 
 .carrousel{
@@ -15,6 +16,10 @@ body {
     background-color: gray;
     box-shadow: 8px 8px 8px #7423234f;
     border-radius: .4em;
+    overflow: hidden;
+    background-image: url('img/HogwartsHD.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .carrousel .big {
@@ -36,6 +41,11 @@ body {
     border-radius: .4em;
 }
 
+.img {
+    width: 331px;
+    height: 490px;
+}
+
 .carrousel .puntos {
     width: 100%;
     margin: 1em;
@@ -52,7 +62,11 @@ body {
     width: 2em;
     height: 2em;
     margin: .2em 1em 0;
-    box-shadow: 8px 8px 8px #2924244f;
+    box-shadow: 8px 8px 8px #9389894f;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(255, 255, 255, 0.45);
 }
 
 .carrousel .punto.activo {
